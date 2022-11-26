@@ -4,9 +4,9 @@ version = "0.0.0"
 
 [dependencies.MoveStdlib]
 git = "https://github.com/aptos-labs/aptos-core.git"
-rev = "23896f357ed5810744842a528e8060dd1200894b"
+rev = "23d258d1f2440267f866eeb27f9830be48682af8"
 subdir = "aptos-move/framework/move-stdlib"
 
 [addresses]
 # run `aptos move test --package-dir init` to get this
-lp = "1a04d0a5f27293b88b55932ff91645cba2b763c7c97c91741a512e28e50baa2b"
+lp = "8db753bcb9b2b899605b8f800218ad4c2bac57c39a5200a0434b725e05cf29ce"
