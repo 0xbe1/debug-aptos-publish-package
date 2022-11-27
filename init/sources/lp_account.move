@@ -24,6 +24,15 @@ module init::lp_account {
         move_to(manager, CapabilityStorage { signer_cap });
     }
 
+    /// Destroys temporary storage for resource account signer capability and returns signer capability.
+    /// It needs for initialization of Thala AMM.
+    public fun retrieve_signer_cap(manager: &signer): SignerCapability acquires CapabilityStorage {
+        assert!(signer::address_of(manager) == @init, 0);
+        let CapabilityStorage { signer_cap } =
+            move_from<CapabilityStorage>(signer::address_of(manager));
+        signer_cap
+    }
+
     #[test]
     fun test_resource_account() {
         account::create_account_for_test(@init);
