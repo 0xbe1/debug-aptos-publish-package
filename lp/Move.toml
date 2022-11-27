@@ -9,4 +9,4 @@ subdir = "aptos-move/framework/move-stdlib"
 
 [addresses]
 # run `aptos move test --package-dir init` to get this
-lp = "8db753bcb9b2b899605b8f800218ad4c2bac57c39a5200a0434b725e05cf29ce"
+lp = "d36b6beb490c99775e3b33f5ec0d8f3aad03657edd9fc84964ad4cb96f8c33f4"

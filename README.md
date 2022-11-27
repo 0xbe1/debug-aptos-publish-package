@@ -19,7 +19,7 @@ aptos move compile --package-dir lp --save-metadata
 hexdump -ve '1/1 "%02x"' lp/build/lp/package-metadata.bcs # 1st arg
 hexdump -ve '1/1 "%02x"' lp/build/lp/bytecode_modules/lp_coin.mv # 2nd arg
 
-aptos move run --function-id 0ee04214f63b97618c5f02dc38dbbacdc8303081bf37471b253976d30f55312d::lp_account::initialize_lp_account --args hex:<1st arg> hex:<2nd arg>
+aptos move run --function-id <init address>::lp_account::initialize_lp_account --args hex:<1st arg> hex:<2nd arg>
 ```
 
 deploy swap module

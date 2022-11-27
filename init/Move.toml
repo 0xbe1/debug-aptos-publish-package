@@ -8,4 +8,4 @@ subdir = "aptos-move/framework/aptos-framework"
 rev = "23d258d1f2440267f866eeb27f9830be48682af8"
 
 [addresses]
-init = "0ee04214f63b97618c5f02dc38dbbacdc8303081bf37471b253976d30f55312d"
+init = "ca8472ea47eaa26cb11471e2973dfe4689bab10eddf285f8b7256c672f405e8d"

@@ -10,5 +10,9 @@ rev = "23d258d1f2440267f866eeb27f9830be48682af8"
 [dependencies.init]
 local = "../init"
 
+[dependencies.lp]
+local = "../lp"
+
 [addresses]
-swap = "0ee04214f63b97618c5f02dc38dbbacdc8303081bf37471b253976d30f55312d"
+swap = "ca8472ea47eaa26cb11471e2973dfe4689bab10eddf285f8b7256c672f405e8d"
+lp = "d36b6beb490c99775e3b33f5ec0d8f3aad03657edd9fc84964ad4cb96f8c33f4"
